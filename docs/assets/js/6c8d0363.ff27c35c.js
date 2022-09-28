@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkhtml_testing_reference=self.webpackChunkhtml_testing_reference||[]).push([[865],{2194:e=>{e.exports=JSON.parse('[{"label":"release","permalink":"/html-testing-guide/blog/tags/release","count":1}]')}}]);

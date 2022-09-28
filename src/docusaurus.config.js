@@ -8,8 +8,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'HTML Testing Reference Guide',
   tagline: 'Filling Gaps in HTML References',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  url: 'https://eviltester.github.io/html-testing-guide',
+  baseUrl: '/html-testing-guide/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/logo/favicon.ico',
