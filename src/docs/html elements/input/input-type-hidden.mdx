@@ -1,0 +1,37 @@
+---
+links:
+    - https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/hidden
+cssSelector: input[type="hidden"]
+ideas:
+    - Amend the value of the attribute, when you now submit the form for processing did it make a difference?
+    - If the value is base64 then decode it and see what it tells you.
+---
+
+import {UsefulLinks, TestIdeas, CSSSelectors} from '@site/src/components/ElementMetadata';
+
+
+# `type="hidden"`
+
+Hidden input elements are a common source of issues. They often give too much information away e.g. private details of the user.
+
+There is a global attribute to hide 'things' from rendering, but the hidden type is different and is especially problematic. A hidden input is not shown on screen but is submitted to the server when a form is submitted.
+
+They sometimes allow escalation of privilege e.g. a hidden field for 'usertype' if amended to 'admin' might change the user permissions for a request. They sometimes feed information to the server that should be pulled from the database e.g. a hidden field on a 'add to cart' or 'checkout' form which has the item price, if this is used to calculate the price on the server then it is possible for the user to amend it and get items for free or even a refund (-ve amount as value).
+
+If any 'hidden' field is important and used in the processing then it needs validation applied prior to processing. Too many development teams make the assumption that the hidden values can not be changed by the user. But they can.
+
+Testers can amend the values using Dev tools, or by amending the HTTP request through a proxy or in the network tab.
+
+
+
+## Useful Links
+
+<UsefulLinks data={frontMatter}></UsefulLinks>
+
+## CSS Selector
+
+<CSSSelectors data={frontMatter}></CSSSelectors>
+
+## Test Ideas
+
+<TestIdeas data={frontMatter}></TestIdeas>
