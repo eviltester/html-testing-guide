@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>HTML Testing Reference Guide Blog</title>
-        <link>https://eviltester.github.io/html-testing-guide/html-testing-guide/blog</link>
+        <link>https://eviltester.github.io/html-testing-guide/blog</link>
         <description>HTML Testing Reference Guide Blog</description>
         <lastBuildDate>Wed, 28 Sep 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -10,7 +10,7 @@
         <language>en</language>
         <item>
             <title><![CDATA[HTML Testing Reference Creation]]></title>
-            <link>https://eviltester.github.io/html-testing-guide/html-testing-guide/blog/html-reference-created</link>
+            <link>https://eviltester.github.io/html-testing-guide/blog/html-reference-created</link>
             <guid>html-reference-created</guid>
             <pubDate>Wed, 28 Sep 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[This is a first release of the start of an HTML Testing Reference Guide.]]></description>

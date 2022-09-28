@@ -9,6 +9,8 @@ ideas:
     - "What happens if this is left blank?"
 ---
 
+import {UsefulLinks, TestIdeas, CSSSelectors} from '@site/src/components/ElementMetadata';
+
 # `type="text"`
 
 Text input fields are often a source of issues when used for non-text data. There are many types available e.g. date, time, number, and these specialised types offer some input validation. "text" offers no default input validation, although it should remove new-line characters. This means that if 'text' is used, the system validation needs to handle any input. There are additional attributes that can help provide client side validation e.g. pattern, required etc.
@@ -17,17 +19,15 @@ Test input fields often have javascript events associated like 'onchange' so che
 
 ## Useful Links
 
-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#input_types
+<UsefulLinks data={frontMatter}></UsefulLinks>
 
 ## CSS Selector
 
-`input[type="text"]`
+<CSSSelectors data={frontMatter}></CSSSelectors>
 
 ## Test Ideas
 
-- Should this really be free text? If additional validation is added to check it is a 'number' or a 'date' then there are actual domain types for that.
-- Check the associated attributes e.g. required, maxlength are they correct?
-- Try a range of invalid characters
-- What happens if this is left blank?
+<TestIdeas data={frontMatter}></TestIdeas>
+
 
 

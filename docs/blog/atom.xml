@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://eviltester.github.io/html-testing-guide/html-testing-guide/blog</id>
+    <id>https://eviltester.github.io/html-testing-guide/blog</id>
     <title>HTML Testing Reference Guide Blog</title>
     <updated>2022-09-28T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://eviltester.github.io/html-testing-guide/html-testing-guide/blog"/>
+    <link rel="alternate" href="https://eviltester.github.io/html-testing-guide/blog"/>
     <subtitle>HTML Testing Reference Guide Blog</subtitle>
-    <icon>https://eviltester.github.io/html-testing-guide/html-testing-guide/img/logo/favicon.ico</icon>
+    <icon>https://eviltester.github.io/html-testing-guide/img/logo/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[HTML Testing Reference Creation]]></title>
         <id>html-reference-created</id>
-        <link href="https://eviltester.github.io/html-testing-guide/html-testing-guide/blog/html-reference-created"/>
+        <link href="https://eviltester.github.io/html-testing-guide/blog/html-reference-created"/>
         <updated>2022-09-28T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[This is a first release of the start of an HTML Testing Reference Guide.]]></summary>
         <content type="html"><![CDATA[<p>This is a first release of the start of an HTML Testing Reference Guide.</p>]]></content>
