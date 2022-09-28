@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkhtml_testing_reference=self.webpackChunkhtml_testing_reference||[]).push([[535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"HTML Testing Reference Creation","permalink":"/blog/html-reference-created"}]}')}}]);
