@@ -17,6 +17,29 @@ Text input fields are often a source of issues when used for non-text data. Ther
 
 Test input fields often have javascript events associated like 'onchange' so check the event listeners to make sure you test the JavaScript.
 
+```
+<input type="text" value="bob"/>
+```
+
+<input type="text" defaultValue="bob"/>
+
+## Exercises
+
+Change Form fields to text and enter invalid values.
+
+- Using [The Pulper](https://www.eviltester.com/page/tools/thepulper/)
+- Select a Book and use the Amend form [e.g.](https://thepulper.herokuapp.com/apps/pulp/gui/amend/book?book=1)
+- Change the various form fields to 'text' and enter invalid values.
+
+Explore the 7CharVal validation message field use of Javascript events.
+
+- The [7CharVal](https://eviltester.github.io/TestingApp/apps/7charval/simple7charvalidation.htm) application.
+- Has two input fields, an entry input field and a validation message field.
+- The validation message field is not editable.
+- Explore the HTML and Element Attributes for the input fields.
+- Make the second validation field editable.
+
+
 ## Useful Links
 
 <UsefulLinks data={frontMatter}></UsefulLinks>

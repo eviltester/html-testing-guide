@@ -1,0 +1,25 @@
+---
+links:
+    - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#required
+    - https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/required
+    - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select#required
+cssSelector: '[required]'
+ideas:
+    - Try removing the 'required' attribute and then submit the form without a value in the field.
+    - Try removing the field element completely.
+---
+
+# attribute - 'required'
+
+The 'required' attribute prevents a form being submitted when any input field (`input`, `select`), with this attribute present, does not have a value.
+
+e.g.
+
+```
+<input type="text" name="author" required/>
+<input type="text" name="title" required="yes/>
+```
+
+NOTE: the `required` attribute does not need a value, and any value can be used for the attribute e.g. `required="required"`, `"required="blue apples"`
+
+Like any other `boolean` attribute, I'm suspicious if a `required` attribute has a value, this often means that the people working on the front end don't fully understand HTML and may indicate that I need to look at the implementation of the GUI more closely.
