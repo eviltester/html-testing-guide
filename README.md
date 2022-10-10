@@ -2,6 +2,8 @@
 
 A WIP Notes and reference information on HTML Web Testing.
 
+[Visit the Deployed Documentation site](https://eviltester.github.io/html-testing-guide/)
+
 
 ## Repo Setup
 
