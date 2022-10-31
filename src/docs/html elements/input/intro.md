@@ -53,19 +53,45 @@ It is important to:
 
 ### Text Controls
 
+The following are all plain text controls. The concept that a field might be a "Url" or "Email" suggests that additional validation is available but any validation is created by the developer, usually by using the [`pattern` attribute](https://www.w3schools.com/tags/att_input_pattern.asp).
+
+The pattern attribute is a regex and needs to be tested. Because it is a Regex it could be automatically checked against a wide range of input data.
+Browsers may style the fields differently.
+
+A few gotchas:
+
+- sometimes the `size` and `maxlength` attributes get mixed up, `size` controls the display width of the input, `maxlength` the maximum number of characters that can be entered.
+    - [size](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/size)
+    - [maxlength](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/maxlength)
+
+Take care about [autocomplete](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/autocomplete) values to make sure there is no accidental information bleed or chance of misuse or setting the wrong values in a form.    
+
 #### Text
 
 <input type="text" defaultValue="bob" onChange={e => console.log(e.target.value)}/>
 
 [more info on text](input-type-text.mdx)
 
+- [mdn web docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/text)
+
 #### Search
 
 <input type="search" onChange={e => console.log(e.target.value)}/>
 
+- [mdn web docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/search)
+
 ### Password
 
 <input type="password" onChange={e => console.log(e.target.value)}/>
+
+Note: just because you "can't see the input" doesn't mean the input is 'safe', the value can be retrieved by JavaScript. And make sure that any use of "password" is only used on a page served and processed via `https`.
+
+- [mdn web docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/search)
+- [web.dev sign in form best practicises](https://web.dev/sign-in-form-best-practices/#current-password)
+
+Notes:
+
+- `autocomplete` has some values [specifically for passwords](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/autocomplete) e.g. `new-password`, `current-password` - make sure these are not misused.
 
 ### Email
 
